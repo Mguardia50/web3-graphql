@@ -1,0 +1,29 @@
+{
+  getBalance (number:"0x690B9A9E9aa1C9dB991C7721a92d351Db4FaC990") {
+    number
+    balance
+  }
+	
+  getConsultas{
+    number
+    balance
+  	timestamp {
+  	  day
+  	  month
+  	  year
+  	}
+  }
+  
+}
+
+mutation {
+  ConsultarFecha(data: {day: 9, month: 2, year:2023}){
+    number
+    balance
+    timestamp {
+      day
+      month
+      year
+    }
+  }
+}
