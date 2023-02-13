@@ -1,0 +1,77 @@
+.inputWallet{
+    width: 600px;
+    font-size: large;
+}
+
+h2{
+    animation-name: grasada;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+h3{
+    animation-name: colores;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+img{
+    margin: 20px;
+    height: 500px;
+    width: 800px;
+}
+
+@keyframes colores{
+
+    0%{
+        background-color: red;
+    }
+
+    15% {
+        background-color: crimson;
+    }
+
+    30%{
+        background-color: pink;
+    }
+
+    45%{
+        background-color: white;
+    }
+    60%{
+        background-color: pink;
+    }
+    75%{
+        background-color: crimson;
+    }
+    100%{
+        background-color: red;
+    }
+}
+
+@keyframes grasada{
+
+    0%{
+        background-color: red;
+    }
+
+    15% {
+        background-color: yellow;
+    }
+
+    30%{
+        background-color: green;
+    }
+
+    45%{
+        background-color: blue;
+    }
+    60%{
+        background-color: orange;
+    }
+    75%{
+        background-color: silver;
+    }
+    100%{
+        background-color: lightblue;
+    }
+}
